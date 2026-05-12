@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 # Konfiguracja
-TOKEN = "TOKEN"  # Wklej token swojego bota
+TOKEN = os.getenv("DISCORD_TOKEN")  # Wklej token swojego bota
 GUILD_ID = 1503734776878862386  # Zmień na ID serwera
 CHANNEL_ID = 1503754202021626077  # Zmień na ID kanału "na-służbie"
 
